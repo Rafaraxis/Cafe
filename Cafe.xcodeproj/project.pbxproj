@@ -14,6 +14,7 @@
 		3DBDFCBE216D78D2004475E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DBDFCBC216D78D2004475E7 /* LaunchScreen.storyboard */; };
 		3DBDFCC9216D78D2004475E7 /* CafeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBDFCC8216D78D2004475E7 /* CafeTests.swift */; };
 		3DBDFCD4216D78D2004475E7 /* CafeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBDFCD3216D78D2004475E7 /* CafeUITests.swift */; };
+		3DBDFCE3216D8FE9004475E7 /* Modennta.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3DBDFCE2216D8EE6004475E7 /* Modennta.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		3DBDFCCF216D78D2004475E7 /* CafeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CafeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DBDFCD3216D78D2004475E7 /* CafeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeUITests.swift; sourceTree = "<group>"; };
 		3DBDFCD5216D78D2004475E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DBDFCE2216D8EE6004475E7 /* Modennta.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Modennta.otf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		3DBDFCB2216D78D1004475E7 /* Cafe */ = {
 			isa = PBXGroup;
 			children = (
+				3DBDFCE1216D8E96004475E7 /* Fuente */,
 				3DBDFCB3216D78D1004475E7 /* AppDelegate.swift */,
 				3DBDFCB5216D78D1004475E7 /* ViewController.swift */,
 				3DBDFCB7216D78D1004475E7 /* Main.storyboard */,
@@ -123,6 +126,14 @@
 				3DBDFCD5216D78D2004475E7 /* Info.plist */,
 			);
 			path = CafeUITests;
+			sourceTree = "<group>";
+		};
+		3DBDFCE1216D8E96004475E7 /* Fuente */ = {
+			isa = PBXGroup;
+			children = (
+				3DBDFCE2216D8EE6004475E7 /* Modennta.otf */,
+			);
+			path = Fuente;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,6 +240,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DBDFCE3216D8FE9004475E7 /* Modennta.otf in Resources */,
 				3DBDFCBE216D78D2004475E7 /* LaunchScreen.storyboard in Resources */,
 				3DBDFCBB216D78D2004475E7 /* Assets.xcassets in Resources */,
 				3DBDFCB9216D78D1004475E7 /* Main.storyboard in Resources */,
